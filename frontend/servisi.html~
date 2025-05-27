@@ -11,7 +11,7 @@
         <h1 class="mb-2">Servisi za vozilo #<span id="vozilo-id-prikaz"></span></h1>
         <a href="index.html" class="btn btn-secondary mb-4">← Natrag na vozila</a>
 
-        <!-- Forma za dodavanje/uređivanje servisa -->
+        <!-- Forma za dodavanje servisa -->
         <div class="card mb-4">
             <div class="card-body">
                 <form id="servis-form">
@@ -25,6 +25,7 @@
                         <div class="col"><input type="number" class="form-control" placeholder="Cijena (€)" step="0.01" id="cijena" required></div>
                     </div>
                     <button type="submit" class="btn btn-primary" id="servis-btn">Dodaj servis</button>
+
                 </form>
             </div>
         </div>
@@ -44,7 +45,7 @@
             <tbody id="servisi-body"></tbody>
         </table>
 
-        <!-- Graf i statistika -->
+        <!-- Graf + Statistika -->
         <h5 class="mt-4">📈 Statistika troškova servisa</h5>
         <canvas id="troškoviChart" height="150"></canvas>
         <p class="mt-3 fw-bold">Ukupno potrošeno: <span id="ukupno-cijena">0.00</span> €</p>

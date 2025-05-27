@@ -3,7 +3,6 @@ version: '3.8'
 services:
   backend:
     build: ./backend
-    container_name: autotrack-backend
     ports:
       - "5000:5000"
     volumes:
@@ -12,7 +11,6 @@ services:
 
   frontend:
     image: nginx:alpine
-    container_name: autotrack-frontend
     ports:
       - "8080:80"
     volumes:
