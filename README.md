@@ -87,7 +87,7 @@ AutoTrack/
 ## 📹 Video demonstracija
 
 🎥 Video s prikazom funkcionalnosti i pokretanjem aplikacije nalazi se na:  
-**url**
+https://www.youtube.com/watch?v=tj3S632kItg
 
 ---
 
